@@ -10,10 +10,24 @@ body {
     
 }
 
+header h1 {
+    margin: 0;
+    padding-top: 200px;
+}
+
+#span2 {
+    background-color: white;
+	font-size: 4em;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 200px;
+	opacity: 0.8;
+	color: black;
+}
 
 header {
 	background-color: #444;
-	background-image: url("https://www.couchsurfing.com/assets/homepage/have-fun-with-couchsurfing-923a28f8244af3c93cb1342444a4e1f33aa8802ae56720bfdd9062256d1ac7d4.jpg");
+	background-image: url("sss.jpg");
 	background-position: center center;
 	background-attachment: fixed;
     background-repeat: no-repeat;
