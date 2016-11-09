@@ -20,6 +20,7 @@ header {
 	height: 800px;
 	color: white;
     background-size: 100% 100%;
+    background-size: cover;
 }
 
 .title {
@@ -42,6 +43,10 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Float the list items side by side */
@@ -92,4 +97,12 @@ ul.topnav li.icon {display: none;}
     display: block;
     text-align: left;
   }
+}
+
+#logo {
+    height: auto;
+    width: 5em;
+    position: absolute;
+    padding-left: 5em
+    
 }
